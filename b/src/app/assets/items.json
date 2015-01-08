@@ -1,0 +1,42 @@
+[
+    {
+        "category": "Women",
+        "subcat": "Clothing",
+        "item": "Party wear - Front Leather Panelled Ponte Treggings",
+        "price": 159.00,
+        "uid": 1,
+        "thumbnail": "1.jfif"
+    },
+    {
+        "category": "Women",
+        "subcat": "Clothing",
+        "item": "Speziale Italian Cupro Draped Bodycon Dress",
+        "price": 89.00,
+        "uid": 2,
+        "thumbnail": "2.jfif"
+    },
+    {
+        "category": "Beauty",
+        "subcat": "Skincare",
+        "item": "Aptiva - Wine Elixir Night Cream",
+        "price": 79.00,
+        "uid": 3,
+        "thumbnail": "3.jfif"
+    },
+    {
+        "category": "Men",
+        "subcat": "Suits & Tailoring",
+        "item": "Sartorial – Slim Fit Luxury Pure Cotton Rib Striped Shirt",
+        "price": 39.50,
+        "uid": 4,
+        "thumbnail": "4.jfif"
+    },
+    {
+        "category": "Men",
+        "subcat": "Jeans",
+        "item": "Big & Tall Washed Look Bootleg Denim Jeanst",
+        "price": 25.00,
+        "uid": 5,
+        "thumbnail": "5.jfif"
+    }
+]

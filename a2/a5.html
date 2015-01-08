@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Video</title>
+
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="a5.css" rel="stylesheet">
+  </head>
+  <body>
+    <h2>Video</h2>
+
+    <div class="video-wrapper">
+      <video id="video" width="640" height="360" poster="poster.jpg">
+        <source src="videos/video-h264.mov" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+        <source src="videos/video-ogg.ogv" type='video/ogg; codecs="theora, vorbis"'>
+        <source src="videos/video-webm.webm" type='video/webm; codecs="vp8, vorbis"'>
+        <object type="application/x-shockwave-flash" data="http://releases.flowplayer.org/swf/flowplayer-3.2.1.swf" width="640" height="360">
+          <param name="movie" value="http://releases.flowplayer.org/swf/flowplayer-3.2.1.swf">
+          <param name="allowFullScreen" value="true">
+          <param name="wmode" value="transparent">
+          <param name="flashVars" value="config={'playlist':['poster.jpg',{'url':'videos/video-h264.mov','autoPlay':false}]}">
+          <img alt="Video" src="poster.jpg" width="640" height="360" title="No video playback capabilities!">
+        </object>
+      </video>
+    </div>
+
+    <div class="video-controls">
+      <div class="video-controls-inner">
+        <button id="play" type="button"><span class="fa fa-play"></span></button>
+        <input id="seek" type="range" value="0">
+        <button id="mute" type="button"><span class="fa fa-volume-up"></span></button>
+        <input id="volume" type="range" value="1" min="0" max="1" step="0.1">
+        <button id="fullscreen" type="button"><span class="fa fa-arrows-alt"></span></button>
+      </div>
+    </div>
+
+    <script src="a5.js"></script>
+  </body>
+</html>

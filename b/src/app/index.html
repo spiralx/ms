@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html ng-app="msb">
+  <head>
+    <meta charset="utf-8">
+    <title>msb</title>
+
+    <link href="//fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <!-- inject:vendor:css -->
+    <!-- endinject -->
+    <!-- inject:css -->
+    <link rel="stylesheet" href="/css/app.css">
+    <link rel="stylesheet" href="/css/basket/basket.css">
+    <link rel="stylesheet" href="/css/items/items.css">
+    <!-- endinject -->
+  </head>
+  <body>
+    <header>
+      <h1><!--M&amp;S s-->Shopping basket</h1>
+    </header>
+
+    <section class="main">
+      <section class="product_summary_collection" ui-view="itemView"></section>
+
+      <aside class="basket" ui-view="basketView"></aside>
+    </section>
+
+    <!-- inject:vendor:js -->
+    <script src="/angular/angular.js"></script>
+    <script src="/angular-ui-router/release/angular-ui-router.js"></script>
+    <!-- endinject -->
+    <!-- inject:js -->
+    <script src="/items/items.js"></script>
+    <script src="/basket/basket.js"></script>
+    <script src="/app.js"></script>
+    <script src="/msb-templates.js"></script>
+    <!-- endinject -->
+  </body>
+</html>

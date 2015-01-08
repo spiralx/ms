@@ -1,0 +1,6 @@
+<article class="product_summary" ng-repeat="item in itemDetails">
+  <img class="product_image" ng-src="assets/images/{{item.thumbnail}}" alt="{{item.item}}">
+  <h1 class="product_title">{{item.item}}</h1>
+  <span class="product_price">{{item.price | currency:"£"}}</span>
+  <a class="add_to_basket" ng-click="addToBasket(item.uid)">Add to Basket</a>
+</article>

@@ -1,0 +1,19 @@
+body {
+  margin: 20px auto;
+  padding: 0;
+  width: 700px;
+  font: 75%/120% Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  font: bold 190%/100% Arial, Helvetica, sans-serif;
+  margin: 0 0 .2em;
+}
+h2 em {
+  font: normal 80%/100% Arial, Helvetica, sans-serif;
+  color: #999999;
+}
+
+.video-wrapper {
+  margin: 1em auto;
+}
